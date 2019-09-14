@@ -79,6 +79,7 @@ width: 100%;
 .text-center {
 text-align: center;
 }
+
 .center {
 display: flex;
 justify-content: center;
@@ -193,6 +194,7 @@ width: 280px;
 position: relative;
 z-index: 100;
 }
+
 .bg-image img {
 padding-left: 70px;
 padding-top: 30px;
@@ -505,7 +507,7 @@ height: 143px;
 width: 78px;
 }
 .btn {
-padding: 8px 10px;
+padding: 12px 14px;
 border-radius: 10px;
 background: #fcbe16;
 border: 0;
@@ -696,5 +698,9 @@ top:50px;
 .item-center {
 	display: flex;
 justify-content: center;
+}
+.btn-header {
+	padding: 20px 35px !important;
+	box-shadow: 0 0 20px rgba(0,0,0,0.9);
 }
 }
